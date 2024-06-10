@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    height: 100vh;
+}
+
+.login, .registration {
+    border: 2px solid #0077b6;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 50px;
+    width: 500px;
+    max-width: 500px;
+    background-color: rgb(240, 240, 240);
+}
+
+.login-form, .registration-form {
+    margin-top: 30px;
+}
+
+.registrationForm {
+    font-size: 13px;
+    margin-top: -15px;
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+    cursor: pointer;
+}
+
+ .content {
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    width: 195 px;
+    height: 500 px;
+    margin-top: -50px;
+}
+
+.table .table-hover .table-collapse{
+    width: 195px;
+    border: 2px solid #0077b6;
+}
+
+#editBtn, #deleteBtn {
+    font-size: 20px;
+    width: 30px;
+}
